@@ -5,10 +5,7 @@
   font-weight: 400;
 }
 /*header*/
-.header{
-width: 1440px;
-height: 72px;
-}
+
 .header-navigation{
 font-style: normal;
 font-weight: 500;
@@ -34,4 +31,7 @@ font-size: 18px;
 line-height: 1.33;
 color: #2E2F42;
 letter-spacing: 0.03em;
+}
+.header-list .link{
+   text-decoration: none;
 }
