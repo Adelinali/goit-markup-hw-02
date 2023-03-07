@@ -1,3 +1,11 @@
+:root {
+  --main-title-color: #ffff;
+  --second-title-color: #2e2f42;
+  --main-btn-color: #4d5ae5;
+  --hover-btn-color: #404bbf;
+  --background-btn-color:#E7E9FC;
+}
+
 .body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -6,7 +14,7 @@
 }
 /**-------HEADER---------*/
 .header {
-  background-color: #e7e9fc;
+  background-color: #ffffff;
 }
 .header-navigation {
   font-style: normal;
@@ -43,6 +51,10 @@
   color: #2e2f42;
 }
 
+.list {
+  list-style: none;
+}
+
 .header-list {
 }
 .link {
@@ -56,6 +68,9 @@
 .link:focus,
 .link:hover {
   color: #404bbf;
+}
+a:active{
+   color: #404bbf;
 }
 .header-adress {
 }
@@ -73,10 +88,13 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
+.info:hover,
+.info:focus{
+   color: #404bbf;
+}
 .header-adress-mail {
 }
 .info {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   text-decoration: none;
   font-size: 16px;
@@ -96,16 +114,19 @@
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--main-title-color);
 }
-.solution-btn:is(:hover, :focus) {
+.solution-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: var(--main-btn-color);
+}
+.solution-btn:is(:hover, :focus) {
+  background-color: var(--hover-btn-color);
   border-radius: 4px;
   cursor: pointer;
 }
@@ -158,7 +179,6 @@
 .team {
 }
 .team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -180,7 +200,6 @@
   color: #2e2f42;
 }
 .hero-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -196,7 +215,7 @@
 .buttons-list {
 }
 .button-text {
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -205,14 +224,18 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--main-btn-color)
+}
+.button{
+}
+.button-port{
+  
+    
 }
 .button-port:is(:hover, :focus) {
-  color: #404bbf;
-  background-color: #f4f4fd;
-  border: 1px solid;
-  border-radius: 4px;
-  cursor: pointer;
+  color: var(--main-title-color)
+  background-color: var(var(--hover-btn-color));
+  
 }
 
 /**-------Section Galery---------*/
