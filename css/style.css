@@ -298,5 +298,5 @@ text-transform: uppercase;
 text-decoration: none;
 color:var(--background-btn-color)
 }
-.logo>span{
-  color: var(--main-web-logo-color);
+.logo-studio-footer>span{
+  color: var(--main-web-logo-color)}
