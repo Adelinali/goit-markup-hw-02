@@ -62,7 +62,7 @@ text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--galery-text-color);
+  color: var(--second-title-color)
 }
 .link-menu:focus,
 .link-menu:hover {
@@ -85,7 +85,7 @@ a:active{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--galery-text-color);
 }
 .info:hover,
 .info:focus{
