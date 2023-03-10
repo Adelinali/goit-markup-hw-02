@@ -304,7 +304,7 @@ line-height: 1.33;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none;
-color:var(--background-btn-color)
+color:var(--logo-footer-color);
 }
 .logo-studio-footer>span{
-  color: var(--logo-footer-color)}
+  color: var(--main-web-logo-color);}
