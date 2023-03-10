@@ -6,7 +6,7 @@
   --background-btn-color:#E7E9FC;
   --main-web-logo-color:#4d5ae5;
   --second-studio-logo-color:#2e2f42;
-  --logo-footer-color:#F4F4FD;
+  --logo-footer-color:#f4f4fd;
 }
 
 .body {
@@ -65,7 +65,7 @@ text-decoration: none;
 }
 .link-menu:focus,
 .link-menu:hover {
-  color: var(--main-btn-color);
+  color: var(--hover-btn-color);
 }
 a:active{
    color: #404bbf;
@@ -139,6 +139,7 @@ a:active{
 .info-list-strategy {
 }
 .info-list-title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
