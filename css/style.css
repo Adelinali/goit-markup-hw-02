@@ -6,6 +6,7 @@
   --background-btn-color:#E7E9FC;
   --main-web-logo-color:#4d5ae5;
   --second-studio-logo-color:#2e2f42;
+  --logo-footer-color:#F4F4FD;
 }
 
 .body {
@@ -47,7 +48,7 @@
   list-style: none;
 }
 
-.header-list {
+.header-navigation {
 }
 .link {
   text-decoration: none;
@@ -121,6 +122,7 @@ a:active{
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: var(--main-btn-color);
+  cursor: pointer;
 }
 .solution-btn:is(:hover, :focus) {
   background-color: var(--hover-btn-color);
@@ -160,6 +162,7 @@ a:active{
 }
 .main-title {
   font-size: 36px;
+  font-weight: 500;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
@@ -299,4 +302,4 @@ text-decoration: none;
 color:var(--background-btn-color)
 }
 .logo-studio-footer>span{
-  color: var(--main-web-logo-color)}
+  color: var(--logo-footer-color)}
