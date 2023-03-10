@@ -32,23 +32,16 @@
    line-height: 1.17;
    text-transform: uppercase;
    letter-spacing: 0.03em;
-   color: var(--second-studio-logo-color);
-   text-decoration: none;
 }
-.logo>span{
+.color{
   color: var(--main-web-logo-color);
- 
 }
-.logo-studio{
-  font-weight: 800;
-font-size: 18px;
-line-height: 1.33;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-text-decoration: none;
 
-color:var(--second-studio-logo-color)
+.logo-studio{
+  color: var(--second-studio-logo-color,#2e2f42);
 }
+
+
 
 .list {
   list-style: none;
@@ -58,24 +51,29 @@ color:var(--second-studio-logo-color)
 }
 .link {
   text-decoration: none;
+
+  
+}
+.link-menu{
+text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--second-title-color);
 }
-.link:focus,
-.link:hover {
-  color: #404bbf;
+.link-menu:focus,
+.link-menu:hover {
+  color: var(--main-btn-color);
 }
 a:active{
    color: #404bbf;
 }
-.header-adress {
-}
-.header-adress-list {
+
+.header-adress{
   text-decoration: none;
   font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
 
 .info {
@@ -300,3 +298,5 @@ text-transform: uppercase;
 text-decoration: none;
 color:var(--background-btn-color)
 }
+.logo>span{
+  color: var(--main-web-logo-color);
