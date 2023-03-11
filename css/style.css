@@ -234,14 +234,14 @@ a:active{
   
 }
 .button-port{
-  cursor: pointer;
+  
   
     
 }
 .button-port:is(:hover, :focus) {
   color: var(--main-title-color)
   background-color: var(var(--hover-btn-color));
-  
+  cursor: pointer;
  
 }
 
