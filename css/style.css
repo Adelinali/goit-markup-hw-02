@@ -215,6 +215,7 @@ a:active{
   color: #ffffff;
 }
 .buttons-list {
+  cursor: pointer;
 }
 .button-text {
   font-family: inherit;
@@ -230,7 +231,7 @@ a:active{
   
 }
 .button{
- cursor: pointer;
+
   
 }
 .button-port{
