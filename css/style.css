@@ -227,21 +227,21 @@ a:active{
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--main-btn-color);
-  cursor: pointer;
+  
 }
 .button{
-  cursor: pointer;
+ 
   
 }
 .button-port{
-  cursor: pointer;
+  
   
     
 }
 .button-port:is(:hover, :focus) {
   color: var(--main-title-color)
   background-color: var(var(--hover-btn-color));
-  cursor: pointer;
+  
  
 }
 
