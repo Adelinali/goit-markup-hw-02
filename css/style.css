@@ -215,7 +215,7 @@ a:active{
   color: #ffffff;
 }
 .buttons-list {
-  cursor: pointer;
+  
 }
 .button-text {
   font-family: inherit;
@@ -228,7 +228,7 @@ a:active{
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--main-btn-color);
-  
+  cursor: pointer;
 }
 .button{
 
